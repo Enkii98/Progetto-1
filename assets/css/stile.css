@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
+
+/*ho usato forse un paio di tag o attributi non spiegati,credo*/
+
+
+body{
+    line-height: 1.65;
+    text-align: center;
+    font-family:sans-serif;
+    
+}
+
+body h1,h2,h3{
+    color: #25a2c3;
+    font-weight: bold;
+}
+
+/*---------------------------------------------------------------------*/
+
+header img{
+    background-color: black;
+    width: 20vh;
+    padding: 20px;
+}
+
+header h1{
+    font-family: 'Montserrat',sans-serif;
+    font-weight:700;
+    line-height: 1.5;
+    font-size: xx-large;
+    margin-bottom: 10px;
+    margin-inline: 30px;
+}
+
+
+header {
+    background-color: black;
+}
+
+
+
+header>div{
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    padding: 8vh 8vh 5vh 8vh;
+    margin-bottom: 3vh;
+}
+
+
+header p{
+    margin-bottom: 5vh;
+    margin-inline: 65px;
+}
+
+
+nav{
+    margin-bottom: 1vh;
+}
+
+
+header button{
+    background-color: #ff6600;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+header button:hover{
+    background-color:orange ;
+}
+
+
+header a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/*---------------------------------------------------------------------*/
+main{
+    padding-bottom: 35px;
+}
+
+article{
+    padding-block: 25px;
+    padding-inline: 120px;
+}
+
+article>div{
+    padding-block:15px;
+}
+
+article img{
+    border-radius: 360px;
+    max-block-size: 280px;
+}
+
+section{
+    background-color: #e22d0e;
+    color: white;
+    padding: 25px;
+    margin-bottom: 50px;
+}
+
+section>h2{
+    color: white;
+    font-size: xx-large;
+    padding-top: 20px;
+}
+
+
+
+#italic{
+    font-style: italic;
+    font-size: 14px;
+    margin-block:4vh;
+    padding-inline: 55px;
+    color: #c8e7f0;
+}
+
+#font{
+    font-size: 13px;
+    color: #c8e7f0;
+
+}
+
+
+/*---------------------------------------------------------------------*/
+figure{
+    width: 90vw;
+    border: thin #c0c0c0 solid;
+    flex-flow: column;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    border-radius: 5px;
+}    
+
+figure>img {
+    max-height: 600px;
+    width: inherit;
+}
+
+figcaption {
+    padding: 10px;
+    text-align: center;
+}
+
+
+/*---------------------------------------------------------------------*/
+
+footer{
+    background-color: #25a2c3;
+    padding: 25px;
+    padding-bottom: 45px;
+}
+
+footer h2{
+    color: white;
+    font-size: xx-large;
+    margin-bottom:10px;
+}
+
+footer i {
+    color: white;
+}
+
+footer>div>a{
+    color: #c8e7f0;
+}
+
+footer>p{
+    font-size: 13px;
+    color: #c8e7f0;
+    font-weight: 700;
+}
+
+footer>p>a{
+    color: #c8e7f0;
+}
+
+#text{
+    text-decoration: none;
+}
+
+hr{
+    width: 175px;
+    margin-block: 3vh;
+    border-block-start-style: none;
+}
+
